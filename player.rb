@@ -13,14 +13,15 @@ class Player
       @lives = 3
     end
 
-    def reduce_lives
-      lives - 1
-    end
+    # def reduce_lives(lives)
+    #   @lives = lives - 1
+    # end
 
 end
 
 
 
 # We can now instantiate invoices using its initializer (constructor):
-player1 = Player.new("Peter")
-puts player1.lives
+# player1 = Player.new("Peter")
+# player2 = Player.new("Parker")
+# puts player1.reduce_lives
